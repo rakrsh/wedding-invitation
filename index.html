@@ -1,0 +1,1864 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Wedding Invitation — Ravi Sharma &amp; Debahuti Patnaik | Bhubaneswar</title>
+  <meta name="description" content="Together with their families, Ravi Sharma & Debahuti Patnaik joyfully invite you to celebrate their sacred union on February 22, 2027 at Hotel Crystal Crown, Bhubaneswar, Odisha." />
+
+  <!-- Classic Heirloom Typography: Cinzel (Engraved Caps), Cormorant Garamond (Editorial Serif), Pinyon Script (Calligraphy), Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Pinyon+Script&family=Plus+Jakarta+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+  <!-- Tailwind CSS via CDN (Zero build step required for GitHub Pages) -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Canvas Confetti for Gold-Leaf RSVP Celebration -->
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+
+  <!-- Tailwind Custom Configuration -->
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            display: ['"Cinzel"', 'Georgia', 'serif'],
+            serif: ['"Cormorant Garamond"', 'Georgia', 'serif'],
+            script: ['"Pinyon Script"', 'cursive'],
+            sans: ['"Plus Jakarta Sans"', '-apple-system', 'BlinkMacSystemFont', 'sans-serif'],
+          },
+          colors: {
+            primary: 'var(--color-primary)',
+            'primary-dark': 'var(--color-primary-dark)',
+            accent: 'var(--color-accent)',
+            'accent-bright': 'var(--color-accent-bright)',
+            'accent-light': 'var(--color-accent-light)',
+            surface: 'var(--color-surface)',
+            'surface-alt': 'var(--color-surface-alt)',
+            ink: 'var(--color-ink)',
+            'ink-muted': 'var(--color-ink-muted)',
+          },
+          animation: {
+            'float-slow': 'float 7s ease-in-out infinite',
+            'pulse-seal': 'pulseSeal 3s infinite',
+          },
+          keyframes: {
+            float: {
+              '0%, 100%': { transform: 'translateY(0px)' },
+              '50%': { transform: 'translateY(-8px)' },
+            },
+            pulseSeal: {
+              '0%, 100%': { boxShadow: '0 16px 36px rgba(36, 27, 28, 0.28), 0 0 0 0 rgba(184, 137, 58, 0.45)' },
+              '50%': { boxShadow: '0 16px 36px rgba(36, 27, 28, 0.28), 0 0 0 16px rgba(184, 137, 58, 0)' },
+            }
+          }
+        }
+      }
+    };
+  </script>
+
+  <style>
+    /* =====================================================================
+       HEIRLOOM PALETTE VARIABLES (Ivory & Burgundy vs. Ivory & Royal Navy)
+       ===================================================================== */
+    :root,
+    [data-theme="ivory-burgundy"] {
+      --color-primary: #5c1a24;
+      --color-primary-dark: #3d0f16;
+      --color-accent: #b8893a;
+      --color-accent-bright: #d4af37;
+      --color-accent-light: #f4ece0;
+      --color-surface: #faf6f0;
+      --color-surface-alt: #f4ede2;
+      --color-ink: #241b1c;
+      --color-ink-muted: #6e5d5f;
+      --petal-gold-rgb: 212, 175, 55;
+      --petal-ivory-rgb: 255, 250, 240;
+    }
+
+    [data-theme="ivory-navy"] {
+      --color-primary: #16263e;
+      --color-primary-dark: #0d1829;
+      --color-accent: #b8893a;
+      --color-accent-bright: #d4af37;
+      --color-accent-light: #edf1f7;
+      --color-surface: #faf7f2;
+      --color-surface-alt: #f0ece3;
+      --color-ink: #19212c;
+      --color-ink-muted: #586373;
+      --petal-gold-rgb: 212, 175, 55;
+      --petal-ivory-rgb: 245, 248, 252;
+    }
+
+    /* Fine Cotton Linen Paper Grain Texture (Pure CSS/SVG, Zero External Files) */
+    body {
+      background-color: var(--color-surface);
+      color: var(--color-ink);
+      transition: background-color 0.5s ease, color 0.5s ease;
+      overflow-x: hidden;
+      background-image:
+        radial-gradient(rgba(184, 137, 58, 0.06) 1px, transparent 0),
+        radial-gradient(rgba(92, 26, 36, 0.03) 1px, transparent 0);
+      background-size: 28px 28px;
+      background-position: 0 0, 14px 14px;
+    }
+
+    /* Subtle Paper Grain Overlay */
+    .linen-texture {
+      background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)' opacity='0.035'/%3E%3C/svg%3E");
+    }
+
+    /* Custom Scrollbar */
+    ::-webkit-scrollbar {
+      width: 7px;
+    }
+    ::-webkit-scrollbar-track {
+      background: var(--color-surface-alt);
+    }
+    ::-webkit-scrollbar-thumb {
+      background: var(--color-accent);
+      border-radius: 9999px;
+    }
+
+    /* Crimson-Burgundy Embossed Wax Seal */
+    .crimson-wax-seal {
+      background: radial-gradient(circle at 30% 28%, #8f2938, var(--color-primary) 58%, var(--color-primary-dark) 100%);
+      box-shadow:
+        0 18px 38px rgba(36, 27, 28, 0.32),
+        inset 0 2px 5px rgba(255, 235, 210, 0.35),
+        inset 0 -5px 10px rgba(20, 5, 8, 0.55);
+      transition: transform 0.4s cubic-bezier(0.34, 1.56, 0.64, 1), filter 0.3s ease;
+    }
+    .crimson-wax-seal:hover {
+      transform: scale(1.06);
+      filter: brightness(1.06);
+    }
+    .crimson-wax-seal:active {
+      transform: scale(0.95);
+    }
+
+    /* Engraved Envelope Overlay & Parting Flaps */
+    #envelope-overlay {
+      transition: opacity 0.95s cubic-bezier(0.22, 1, 0.36, 1), visibility 0.95s;
+    }
+    #envelope-overlay.opened {
+      opacity: 0;
+      visibility: hidden;
+      pointer-events: none;
+    }
+    .envelope-top-panel {
+      transition: transform 1s cubic-bezier(0.22, 1, 0.36, 1);
+      transform-origin: top center;
+    }
+    .envelope-bottom-panel {
+      transition: transform 1s cubic-bezier(0.22, 1, 0.36, 1);
+      transform-origin: bottom center;
+    }
+    #envelope-overlay.opening .envelope-top-panel {
+      transform: translateY(-102%);
+    }
+    #envelope-overlay.opening .envelope-bottom-panel {
+      transform: translateY(102%);
+    }
+
+    /* Double-Hairline Heirloom Card Frame */
+    .heirloom-frame {
+      position: relative;
+      border: 1px solid rgba(184, 137, 58, 0.45);
+      box-shadow: 0 20px 50px -18px rgba(36, 27, 28, 0.12);
+    }
+    .heirloom-frame::after {
+      content: "";
+      position: absolute;
+      inset: 7px;
+      border: 1px solid rgba(184, 137, 58, 0.25);
+      border-radius: inherit;
+      pointer-events: none;
+    }
+
+    /* Classical Architectural Arch Motif */
+    .arch-card {
+      border-radius: 180px 180px 24px 24px;
+    }
+
+    /* Scroll Reveal Utility */
+    .reveal {
+      opacity: 0;
+      transform: translateY(22px);
+      transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+    }
+    .reveal.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    /* Engraved Ornamental Rule */
+    .engraved-divider {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 1rem;
+    }
+    .engraved-divider::before,
+    .engraved-divider::after {
+      content: "";
+      height: 1px;
+      width: 72px;
+      background: linear-gradient(90deg, transparent, var(--color-accent), transparent);
+    }
+  </style>
+</head>
+
+<body class="font-sans antialiased linen-texture selection:bg-accent/25 selection:text-primary" data-theme="ivory-burgundy">
+
+  <!-- =====================================================================
+       1. CLASSIC ENGRAVED IVORY LINEN ENVELOPE & CRIMSON WAX SEAL REVEAL
+       ===================================================================== -->
+  <div id="envelope-overlay" class="fixed inset-0 z-50 flex items-center justify-center overflow-hidden">
+    <!-- Top Ivory Linen Flap -->
+    <div class="envelope-top-panel linen-texture absolute inset-x-0 top-0 h-1/2 bg-surface border-b border-accent/40 flex flex-col items-center justify-end pb-16 px-4 text-center shadow-lg">
+      <!-- Outer & Inner Engraved Gold Frame -->
+      <div class="absolute inset-4 sm:inset-7 border border-accent/40 rounded-t-xl pointer-events-none"></div>
+      <div class="absolute inset-5 sm:inset-8 border border-accent/20 rounded-t-lg pointer-events-none"></div>
+
+      <!-- Top Filigree Corner Ornaments -->
+      <svg class="w-12 h-12 text-accent/75 mb-3" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="1.2">
+        <path d="M32 6 C36 18, 46 20, 56 20 C44 24, 38 30, 32 42 C26 30, 20 24, 8 20 C18 20, 28 18, 32 6 Z" />
+        <circle cx="32" cy="48" r="2" fill="currentColor" />
+      </svg>
+
+      <p class="font-display text-[11px] sm:text-xs uppercase tracking-[0.38em] text-ink-muted mb-2">
+        An Heirloom Invitation To The Marriage Of
+      </p>
+      <h2 id="envelope-names" class="font-serif italic text-3xl sm:text-5xl text-primary tracking-wide">
+        Ravi Sharma &amp; Debahuti Patnaik
+      </h2>
+    </div>
+
+    <!-- Bottom Ivory Linen Flap -->
+    <div class="envelope-bottom-panel linen-texture absolute inset-x-0 bottom-0 h-1/2 bg-surface-alt border-t border-accent/40 flex flex-col items-center justify-start pt-16 px-4 text-center">
+      <div class="absolute inset-4 sm:inset-7 border border-accent/40 rounded-b-xl pointer-events-none"></div>
+      <div class="absolute inset-5 sm:inset-8 border border-accent/20 rounded-b-lg pointer-events-none"></div>
+
+      <p id="envelope-date-venue" class="font-display text-xs sm:text-sm uppercase tracking-[0.32em] text-primary font-semibold mb-2">
+        Monday, February 22, 2027 &bull; Hotel Crystal Crown, Bhubaneswar
+      </p>
+      <p class="font-serif italic text-base sm:text-lg text-ink-muted">
+        Tap the crimson wax seal to break the crest &amp; enter
+      </p>
+    </div>
+
+    <!-- Center Crimson-Burgundy Wax Seal Stamped with Interlocking Gold Initials -->
+    <button
+      id="unseal-btn"
+      type="button"
+      aria-label="Break Wax Seal and Open Wedding Invitation"
+      class="crimson-wax-seal animate-pulse-seal relative z-10 w-32 h-32 sm:w-36 sm:h-36 rounded-full flex flex-col items-center justify-center border-2 border-accent/55 cursor-pointer focus:outline-none focus:ring-4 focus:ring-accent/40"
+    >
+      <!-- Inner Engraved Wax Ring -->
+      <div class="w-24 h-24 sm:w-28 sm:h-28 rounded-full border border-accent-bright/60 flex flex-col items-center justify-center p-2 relative">
+        <span id="seal-monogram" class="font-display font-semibold text-2xl sm:text-3xl tracking-wider text-accent-bright drop-shadow-xs">
+          R&amp;D
+        </span>
+        <span class="font-display text-[9px] uppercase tracking-[0.28em] text-accent-light/90 mt-1">
+          Unseal
+        </span>
+      </div>
+    </button>
+  </div>
+
+  <!-- =====================================================================
+       2. DISCREET TOP-RIGHT AUDIO CHIMES TOGGLE & BOTTOM-RIGHT STUDIO BUTTON
+       ===================================================================== -->
+  <div class="fixed top-20 right-4 sm:right-6 z-40">
+    <button
+      id="music-toggle-btn"
+      type="button"
+      title="Toggle Classical Harp & Celesta Chimes"
+      class="flex items-center gap-2 px-3.5 py-2 rounded-full bg-surface/95 backdrop-blur-md text-ink border border-accent/45 shadow-md hover:border-accent hover:scale-105 transition text-[11px] font-display uppercase tracking-widest cursor-pointer"
+    >
+      <span id="music-icon" class="w-2 h-2 rounded-full bg-ink-muted transition-colors"></span>
+      <span id="music-label">Chimes: Off</span>
+    </button>
+  </div>
+
+  <div class="fixed bottom-5 right-5 z-40">
+    <button
+      id="open-customizer-btn"
+      type="button"
+      class="flex items-center gap-2 px-4 py-2.5 rounded-full bg-primary text-surface border border-accent/60 shadow-xl hover:bg-primary-dark hover:scale-105 transition text-xs font-display uppercase tracking-widest cursor-pointer"
+    >
+      <svg class="w-4 h-4 text-accent-bright" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z" />
+      </svg>
+      <span>Customize Details</span>
+    </button>
+  </div>
+
+  <!-- =====================================================================
+       3. STICKY ENGRAVED NAVIGATION BAR
+       ===================================================================== -->
+  <header class="sticky top-0 z-30 bg-surface/90 backdrop-blur-md border-b border-accent/25 transition-colors">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between">
+      <a href="#hero" id="nav-monogram" class="font-display text-lg sm:text-xl font-semibold text-primary tracking-[0.22em]">
+        R &amp; D
+      </a>
+
+      <nav class="hidden md:flex items-center gap-8 font-display text-[11px] uppercase tracking-[0.24em] font-medium text-ink-muted">
+        <a href="#invitation-card" class="hover:text-primary transition">The Invitation</a>
+        <a href="#events" class="hover:text-primary transition">Festivities</a>
+        <a href="#travel" class="hover:text-primary transition">Bhubaneswar Guide</a>
+        <a href="#rsvp" class="hover:text-primary transition">RSVP</a>
+        <a href="#guestbook" class="hover:text-primary transition">Blessings</a>
+      </nav>
+
+      <a
+        href="#rsvp"
+        class="px-4 py-2 rounded-full bg-primary text-surface font-display text-[11px] uppercase tracking-[0.22em] hover:bg-primary-dark transition shadow-xs border border-accent/40"
+      >
+        Respond
+      </a>
+    </div>
+  </header>
+
+  <!-- =====================================================================
+       4. HERO & ENGRAVED ARCHITECTURAL ARCH INVITATION CARD
+       ===================================================================== -->
+  <section id="hero" class="relative min-h-[94vh] flex items-center justify-center overflow-hidden px-4 py-16 sm:py-24">
+    <!-- Subtle Floating Golden Dust Motes & Jasmine Petals Canvas -->
+    <canvas id="petals-canvas" class="absolute inset-0 w-full h-full pointer-events-none z-0"></canvas>
+
+    <!-- Soft Warm Alabaster Radial Vignette -->
+    <div class="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(244,237,226,0.45)_0%,transparent_75%)] pointer-events-none z-0"></div>
+
+    <div id="invitation-card" class="relative z-10 max-w-3xl w-full mx-auto">
+      <!-- Classical Arch Engraved Card -->
+      <div class="heirloom-frame arch-card bg-surface/95 backdrop-blur-xs px-6 sm:px-14 pt-16 sm:pt-20 pb-12 sm:pb-16 text-center">
+
+        <!-- Top Botanical / Lotus Filigree Crest SVG -->
+        <div class="flex justify-center mb-5 animate-float-slow">
+          <svg class="w-16 h-16 text-accent" viewBox="0 0 80 80" fill="none" stroke="currentColor" stroke-width="1.25">
+            <!-- Classical Lotus & Arch Motif -->
+            <path d="M40 12 C45 24, 54 28, 64 28 C53 32, 47 38, 40 50 C33 38, 27 32, 16 28 C26 28, 35 24, 40 12 Z" />
+            <path d="M24 38 C28 45, 34 48, 40 54 C46 48, 52 45, 56 38" />
+            <path d="M18 58 H62" stroke-dasharray="2 3" />
+            <circle cx="40" cy="64" r="2.2" fill="currentColor" />
+          </svg>
+        </div>
+
+        <!-- Sanskrit Auspicious Invocation -->
+        <p class="font-display text-[11px] sm:text-xs uppercase tracking-[0.38em] text-accent font-semibold mb-3">
+          &#2384; Shubha Bibaha &bull; Sacred Union
+        </p>
+
+        <!-- Formal Engraved Invitation Wording -->
+        <p id="hero-host-text" class="font-serif italic text-lg sm:text-xl text-ink-muted max-w-xl mx-auto leading-relaxed mb-6">
+          Together with their families,
+        </p>
+
+        <!-- Couple's Engraved Names & Calligraphed Ampersand -->
+        <h1 id="hero-names" class="font-display text-4xl sm:text-6xl md:text-[62px] font-medium text-primary tracking-[0.05em] leading-[1.15]">
+          Ravi Sharma
+          <span class="block font-script text-4xl sm:text-6xl text-accent my-1 lowercase font-normal">&amp;</span>
+          Debahuti Patnaik
+        </h1>
+
+        <p class="font-serif italic text-lg sm:text-xl text-ink-muted max-w-xl mx-auto leading-relaxed mt-6">
+          joyfully invite you to celebrate their sacred union
+        </p>
+
+        <!-- Engraved Gold Ornamental Divider -->
+        <div class="engraved-divider my-7">
+          <span class="text-accent text-xs">&#10022;</span>
+          <span class="font-display text-[10px] uppercase tracking-[0.35em] text-accent">The Wedding</span>
+          <span class="text-accent text-xs">&#10022;</span>
+        </div>
+
+        <!-- Date, Muhurat & Bhubaneswar Venue -->
+        <p id="hero-date-text" class="font-display text-lg sm:text-2xl text-ink tracking-[0.14em] uppercase font-medium">
+          Monday, 22nd February 2027
+        </p>
+        <p id="hero-time-text" class="font-serif italic text-base sm:text-lg text-ink-muted mt-1">
+          Auspicious Wedding Ceremony at 7:00 PM Onwards
+        </p>
+        <a
+          id="hero-venue-link"
+          href="https://maps.app.goo.gl/KEmHkvSXMdsji7jV8"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="inline-block font-display text-xs sm:text-sm uppercase tracking-[0.26em] text-primary hover:text-accent transition font-semibold mt-4 underline decoration-accent/45 underline-offset-4"
+        >
+          Hotel Crystal Crown &bull; Bhubaneswar, Odisha &#8599;
+        </a>
+
+        <!-- Classical Ticking Countdown Timer -->
+        <div id="countdown-container" class="mt-9 pt-7 border-t border-accent/25 grid grid-cols-4 gap-2.5 sm:gap-5 max-w-lg mx-auto">
+          <div class="p-2.5 sm:p-3.5 rounded-xl bg-surface-alt/80 border border-accent/25">
+            <span id="cd-days" class="block font-display text-xl sm:text-3xl font-semibold text-primary">00</span>
+            <span class="font-display text-[9px] sm:text-[10px] uppercase tracking-[0.22em] text-ink-muted mt-1 block">Days</span>
+          </div>
+          <div class="p-2.5 sm:p-3.5 rounded-xl bg-surface-alt/80 border border-accent/25">
+            <span id="cd-hours" class="block font-display text-xl sm:text-3xl font-semibold text-primary">00</span>
+            <span class="font-display text-[9px] sm:text-[10px] uppercase tracking-[0.22em] text-ink-muted mt-1 block">Hours</span>
+          </div>
+          <div class="p-2.5 sm:p-3.5 rounded-xl bg-surface-alt/80 border border-accent/25">
+            <span id="cd-minutes" class="block font-display text-xl sm:text-3xl font-semibold text-primary">00</span>
+            <span class="font-display text-[9px] sm:text-[10px] uppercase tracking-[0.22em] text-ink-muted mt-1 block">Mins</span>
+          </div>
+          <div class="p-2.5 sm:p-3.5 rounded-xl bg-surface-alt/80 border border-accent/25">
+            <span id="cd-seconds" class="block font-display text-xl sm:text-3xl font-semibold text-accent">00</span>
+            <span class="font-display text-[9px] sm:text-[10px] uppercase tracking-[0.22em] text-ink-muted mt-1 block">Secs</span>
+          </div>
+        </div>
+
+        <!-- Primary Engraved Action Buttons -->
+        <div class="mt-9 flex flex-wrap items-center justify-center gap-4">
+          <a
+            href="#rsvp"
+            class="px-7 py-3.5 rounded-full bg-primary text-surface font-display text-xs uppercase tracking-[0.24em] hover:bg-primary-dark transition shadow-md border border-accent/40"
+          >
+            Kindly RSVP
+          </a>
+          <button
+            id="add-calendar-btn"
+            type="button"
+            class="px-7 py-3.5 rounded-full bg-surface-alt text-primary border border-accent/50 font-display text-xs uppercase tracking-[0.22em] hover:bg-accent-light transition shadow-xs cursor-pointer"
+          >
+            Add to Calendar (.ics)
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =====================================================================
+       5. HEIRLOOM QUOTE & BLESSING BANNER
+       ===================================================================== -->
+  <section class="py-16 px-4 sm:px-6 bg-surface-alt/85 border-y border-accent/25">
+    <div class="max-w-3xl mx-auto text-center reveal">
+      <p class="font-script text-3xl sm:text-4xl text-accent mb-2">
+        Two Hearts, One Sacred Promise
+      </p>
+      <p class="font-serif italic text-xl sm:text-2xl text-ink leading-relaxed">
+        &ldquo;In the Temple City of Bhubaneswar, amidst sacred chants, jasmine garlands, and the warmth of our cherished family and friends, we begin our lifelong journey together.&rdquo;
+      </p>
+      <div class="engraved-divider mt-6">
+        <span class="font-display text-[11px] uppercase tracking-[0.3em] text-primary font-semibold">
+          Ravi Sharma &amp; Debahuti Patnaik
+        </span>
+      </div>
+    </div>
+  </section>
+
+  <!-- =====================================================================
+       6. BHUBANESWAR WEDDING FESTIVITIES (INTERACTIVE TABS & TIMELINE)
+       ===================================================================== -->
+  <section id="events" class="py-24 px-4 sm:px-6 max-w-6xl mx-auto">
+    <div class="text-center max-w-2xl mx-auto mb-14 reveal">
+      <span class="font-display text-xs uppercase tracking-[0.32em] text-accent font-semibold">
+        Order of Celebrations
+      </span>
+      <h2 class="font-display text-3xl sm:text-5xl text-primary mt-2 tracking-wide">
+        Bhubaneswar Festivities
+      </h2>
+      <p class="font-serif text-lg sm:text-xl text-ink-muted mt-3">
+        Join us across two days of traditional rituals, music, and celebratory feasts at Hotel Crystal Crown, Bhubaneswar.
+      </p>
+
+      <!-- Interactive Day Filter Tabs -->
+      <div class="mt-8 inline-flex flex-wrap justify-center p-1.5 rounded-full bg-surface-alt border border-accent/35 shadow-inner">
+        <button
+          type="button"
+          data-day-filter="all"
+          class="day-tab-btn px-5 py-2 rounded-full font-display text-[11px] uppercase tracking-[0.2em] font-semibold transition bg-primary text-surface shadow-xs cursor-pointer"
+        >
+          All Events
+        </button>
+        <button
+          type="button"
+          data-day-filter="day1"
+          class="day-tab-btn px-5 py-2 rounded-full font-display text-[11px] uppercase tracking-[0.2em] font-semibold transition text-ink-muted hover:text-primary cursor-pointer"
+        >
+          Feb 21 &bull; Pre-Wedding
+        </button>
+        <button
+          type="button"
+          data-day-filter="day2"
+          class="day-tab-btn px-5 py-2 rounded-full font-display text-[11px] uppercase tracking-[0.2em] font-semibold transition text-ink-muted hover:text-primary cursor-pointer"
+        >
+          Feb 22 &bull; Wedding Day
+        </button>
+      </div>
+    </div>
+
+    <!-- Three Curated Ceremonial Cards -->
+    <div id="events-grid" class="grid grid-cols-1 lg:grid-cols-3 gap-7">
+
+      <!-- Event 1: Feb 21 Evening - Mehendi & Sangeet -->
+      <article data-day="day1" class="event-card heirloom-frame reveal bg-surface rounded-2xl p-7 sm:p-8 flex flex-col justify-between transition-all duration-300 hover:-translate-y-1">
+        <div>
+          <div class="flex items-center justify-between gap-2 mb-4 pb-3 border-b border-accent/20">
+            <span class="font-display text-[10px] uppercase tracking-[0.22em] font-bold text-primary">
+              Sunday, Feb 21, 2027
+            </span>
+            <span id="ev1-time" class="font-serif italic text-sm font-semibold text-accent">
+              5:00 PM Onwards
+            </span>
+          </div>
+
+          <h3 class="font-display text-2xl text-primary tracking-wide mb-2">
+            Mehendi &amp; Sangeet Evening
+          </h3>
+          <p class="font-serif text-base sm:text-lg text-ink-muted leading-relaxed mb-6">
+            An enchanting pre-wedding evening of intricate henna artistry, folk melodies, family dance performances, and festive dining.
+          </p>
+        </div>
+
+        <div class="pt-4 border-t border-accent/20 space-y-3.5">
+          <div>
+            <span class="block font-display text-[10px] uppercase tracking-[0.2em] text-ink-muted">Attire</span>
+            <span class="font-serif italic text-base text-ink font-medium">Traditional Attire / Festive Indian</span>
+          </div>
+
+          <div>
+            <span class="block font-display text-[10px] uppercase tracking-[0.2em] text-ink-muted">Venue</span>
+            <span class="ev-venue-display font-serif text-base text-primary font-semibold">Hotel Crystal Crown, Bhubaneswar</span>
+          </div>
+
+          <div class="pt-2 flex items-center gap-2.5">
+            <a
+              href="https://maps.app.goo.gl/KEmHkvSXMdsji7jV8"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="ev-maps-link flex-1 text-center py-2.5 px-3 rounded-full bg-surface-alt hover:bg-primary hover:text-surface text-primary border border-accent/40 font-display text-[10px] uppercase tracking-[0.2em] font-semibold transition"
+            >
+              Open in Google Maps &#8599;
+            </a>
+            <button
+              type="button"
+              class="copy-venue-btn py-2.5 px-3.5 rounded-full bg-surface-alt hover:bg-accent-light text-ink-muted hover:text-primary border border-accent/30 font-display text-[10px] uppercase tracking-[0.18em] transition cursor-pointer"
+              title="Copy Venue & Map Link"
+            >
+              Copy
+            </button>
+          </div>
+        </div>
+      </article>
+
+      <!-- Event 2: Feb 22 Morning - Haldi & Traditional Rituals -->
+      <article data-day="day2" class="event-card heirloom-frame reveal bg-surface rounded-2xl p-7 sm:p-8 flex flex-col justify-between transition-all duration-300 hover:-translate-y-1">
+        <div>
+          <div class="flex items-center justify-between gap-2 mb-4 pb-3 border-b border-accent/20">
+            <span class="font-display text-[10px] uppercase tracking-[0.22em] font-bold text-primary">
+              Monday, Feb 22, 2027
+            </span>
+            <span id="ev2-time" class="font-serif italic text-sm font-semibold text-accent">
+              10:00 AM – 1:00 PM
+            </span>
+          </div>
+
+          <h3 class="font-display text-2xl text-primary tracking-wide mb-2">
+            Haldi &amp; Traditional Rituals
+          </h3>
+          <p class="font-serif text-base sm:text-lg text-ink-muted leading-relaxed mb-6">
+            A sun-drenched morning of sacred turmeric blessings, auspicious wedding rituals, marigold petals, and a traditional festive lunch.
+          </p>
+        </div>
+
+        <div class="pt-4 border-t border-accent/20 space-y-3.5">
+          <div>
+            <span class="block font-display text-[10px] uppercase tracking-[0.2em] text-ink-muted">Attire</span>
+            <span class="font-serif italic text-base text-ink font-medium">Yellow &amp; Ivory Ethnic Wear</span>
+          </div>
+
+          <div>
+            <span class="block font-display text-[10px] uppercase tracking-[0.2em] text-ink-muted">Venue</span>
+            <span class="ev-venue-display font-serif text-base text-primary font-semibold">Hotel Crystal Crown, Bhubaneswar</span>
+          </div>
+
+          <div class="pt-2 flex items-center gap-2.5">
+            <a
+              href="https://maps.app.goo.gl/KEmHkvSXMdsji7jV8"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="ev-maps-link flex-1 text-center py-2.5 px-3 rounded-full bg-surface-alt hover:bg-primary hover:text-surface text-primary border border-accent/40 font-display text-[10px] uppercase tracking-[0.2em] font-semibold transition"
+            >
+              Open in Google Maps &#8599;
+            </a>
+            <button
+              type="button"
+              class="copy-venue-btn py-2.5 px-3.5 rounded-full bg-surface-alt hover:bg-accent-light text-ink-muted hover:text-primary border border-accent/30 font-display text-[10px] uppercase tracking-[0.18em] transition cursor-pointer"
+              title="Copy Venue & Map Link"
+            >
+              Copy
+            </button>
+          </div>
+        </div>
+      </article>
+
+      <!-- Event 3: Feb 22 Evening - Subha Bibaha, Baraat & Grand Reception -->
+      <article data-day="day2" class="event-card heirloom-frame reveal bg-surface rounded-2xl p-7 sm:p-8 flex flex-col justify-between transition-all duration-300 hover:-translate-y-1">
+        <div>
+          <div class="flex items-center justify-between gap-2 mb-4 pb-3 border-b border-accent/20">
+            <span class="font-display text-[10px] uppercase tracking-[0.22em] font-bold text-accent">
+              Wedding Day &bull; Feb 22
+            </span>
+            <span id="ev3-time" class="font-serif italic text-sm font-semibold text-primary">
+              7:00 PM Onwards
+            </span>
+          </div>
+
+          <h3 class="font-display text-2xl text-primary tracking-wide mb-2">
+            Subha Bibaha &amp; Reception
+          </h3>
+          <p class="font-serif text-base sm:text-lg text-ink-muted leading-relaxed mb-6">
+            The Baraat welcome, sacred wedding vows around the ceremonial fire, and a grand candlelit reception banquet celebrating the newlyweds.
+          </p>
+        </div>
+
+        <div class="pt-4 border-t border-accent/20 space-y-3.5">
+          <div>
+            <span class="block font-display text-[10px] uppercase tracking-[0.2em] text-ink-muted">Attire</span>
+            <span class="font-serif italic text-base text-ink font-medium">Royal Traditional / Formal</span>
+          </div>
+
+          <div>
+            <span class="block font-display text-[10px] uppercase tracking-[0.2em] text-ink-muted">Venue</span>
+            <span class="ev-venue-display font-serif text-base text-primary font-semibold">Hotel Crystal Crown, Bhubaneswar</span>
+          </div>
+
+          <div class="pt-2 flex items-center gap-2.5">
+            <a
+              href="https://maps.app.goo.gl/KEmHkvSXMdsji7jV8"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="ev-maps-link flex-1 text-center py-2.5 px-3 rounded-full bg-primary hover:bg-primary-dark text-surface border border-accent/50 font-display text-[10px] uppercase tracking-[0.2em] font-semibold transition"
+            >
+              Open in Google Maps &#8599;
+            </a>
+            <button
+              type="button"
+              class="copy-venue-btn py-2.5 px-3.5 rounded-full bg-surface-alt hover:bg-accent-light text-ink-muted hover:text-primary border border-accent/30 font-display text-[10px] uppercase tracking-[0.18em] transition cursor-pointer"
+              title="Copy Venue & Map Link"
+            >
+              Copy
+            </button>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- =====================================================================
+       7. VENUE SPOTLIGHT & BHUBANESWAR TRAVEL GUIDE
+       ===================================================================== -->
+  <section id="travel" class="py-24 px-4 sm:px-6 bg-surface-alt/80 border-y border-accent/25">
+    <div class="max-w-6xl mx-auto">
+      <div class="text-center max-w-2xl mx-auto mb-14 reveal">
+        <span class="font-display text-xs uppercase tracking-[0.32em] text-accent font-semibold">
+          Venue Spotlight &amp; Arrival
+        </span>
+        <h2 class="font-display text-3xl sm:text-5xl text-primary mt-2 tracking-wide">
+          Bhubaneswar Travel Guide
+        </h2>
+        <p class="font-serif text-lg sm:text-xl text-ink-muted mt-3">
+          Welcome to Odisha&rsquo;s Temple City. Here is everything you need to reach Hotel Crystal Crown and plan your stay.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-stretch">
+        <!-- Left: Venue Spotlight & Concierge Card (6 cols) -->
+        <div class="lg:col-span-6 heirloom-frame reveal bg-surface rounded-2xl p-8 sm:p-10 flex flex-col justify-between">
+          <div>
+            <div class="flex items-center gap-3.5 mb-5">
+              <div class="w-12 h-12 rounded-full border border-accent/60 bg-surface-alt flex items-center justify-center text-accent shrink-0">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="1.6" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                </svg>
+              </div>
+              <div>
+                <span class="font-display text-[10px] uppercase tracking-[0.25em] text-accent font-semibold">Official Wedding Venue Spotlight</span>
+                <h3 id="travel-venue-title" class="font-display text-2xl sm:text-3xl text-primary">Hotel Crystal Crown</h3>
+              </div>
+            </div>
+
+            <p id="travel-venue-address" class="font-serif text-lg text-ink-muted mb-3">
+              Bhubaneswar, Odisha, India
+            </p>
+
+            <!-- Direct Google Maps Spotlight Box -->
+            <div class="p-4 rounded-xl bg-surface-alt/85 border border-accent/35 mb-6 flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+              <div class="min-w-0">
+                <span class="block font-display text-[9px] uppercase tracking-[0.22em] text-accent font-semibold">Google Maps Pin</span>
+                <a
+                  id="travel-maps-url-text"
+                  href="https://maps.app.goo.gl/KEmHkvSXMdsji7jV8"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="font-serif text-sm sm:text-base text-primary underline truncate block hover:text-accent transition"
+                >
+                  https://maps.app.goo.gl/KEmHkvSXMdsji7jV8
+                </a>
+              </div>
+              <div class="flex items-center gap-2 shrink-0">
+                <a
+                  id="travel-maps-link"
+                  href="https://maps.app.goo.gl/KEmHkvSXMdsji7jV8"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="px-4 py-2 rounded-full bg-primary text-surface font-display text-[10px] uppercase tracking-[0.2em] hover:bg-primary-dark transition shadow-xs"
+                >
+                  Open in Google Maps &#8599;
+                </a>
+                <button
+                  id="copy-address-btn"
+                  type="button"
+                  class="px-3.5 py-2 rounded-full bg-surface text-primary border border-accent/45 font-display text-[10px] uppercase tracking-[0.18em] hover:bg-accent-light transition cursor-pointer"
+                >
+                  Copy Venue &amp; Map Link
+                </button>
+              </div>
+            </div>
+
+            <div class="space-y-4 pt-4 border-t border-accent/20">
+              <div>
+                <h4 class="font-display text-xs uppercase tracking-[0.2em] text-primary font-semibold">
+                  By Air &bull; Biju Patnaik International Airport (BBI)
+                </h4>
+                <p class="font-serif text-base sm:text-lg text-ink-muted mt-1 leading-relaxed">
+                  Direct flights operate daily from New Delhi, Mumbai, Bengaluru, Kolkata, and Hyderabad. Hotel Crystal Crown is a convenient drive from the airport via NH-16.
+                </p>
+              </div>
+
+              <div>
+                <h4 class="font-display text-xs uppercase tracking-[0.2em] text-primary font-semibold">
+                  By Rail &bull; Bhubaneswar Railway Station (BBS)
+                </h4>
+                <p class="font-serif text-base sm:text-lg text-ink-muted mt-1 leading-relaxed">
+                  Well-connected via Rajdhani, Vande Bharat, and Duronto Express trains, with taxis and app-cabs readily available straight to Hotel Crystal Crown.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="mt-8 pt-6 border-t border-accent/20 flex flex-wrap items-center justify-between gap-4">
+            <div>
+              <span class="block font-display text-[10px] uppercase tracking-[0.22em] text-ink-muted">Family Hospitality Desk</span>
+              <span id="travel-contact-display" class="font-serif text-base font-semibold text-primary">+91 98610 12345</span>
+            </div>
+            <span class="font-display text-[10px] uppercase tracking-[0.2em] text-accent font-semibold">
+              Feb 21 – Feb 22, 2027 &bull; Bhubaneswar
+            </span>
+          </div>
+        </div>
+
+        <!-- Right: Suggested Stays & Local Bhubaneswar Notes (6 cols) -->
+        <div class="lg:col-span-6 reveal flex flex-col gap-6">
+          <div class="heirloom-frame bg-surface rounded-2xl p-7 sm:p-8">
+            <span class="font-display text-[10px] uppercase tracking-[0.26em] text-accent font-semibold">01 &bull; Accommodations</span>
+            <h3 class="font-display text-xl text-primary mt-1 mb-2">Hotel Crystal Crown &amp; Nearby Stays</h3>
+            <p class="font-serif text-base sm:text-lg text-ink-muted leading-relaxed">
+              Guest rooms and hospitality suites are arranged at <strong class="text-ink font-semibold">Hotel Crystal Crown, Bhubaneswar</strong>, with additional rooms nearby along NH-16 / Patia. Please mention the <span class="italic text-primary">Sharma &ndash; Patnaik Wedding</span> when coordinating check-in.
+            </p>
+          </div>
+
+          <div class="heirloom-frame bg-surface rounded-2xl p-7 sm:p-8">
+            <span class="font-display text-[10px] uppercase tracking-[0.26em] text-accent font-semibold">02 &bull; Climate &amp; Wardrobe</span>
+            <h3 class="font-display text-xl text-primary mt-1 mb-2">February Weather in Bhubaneswar</h3>
+            <p class="font-serif text-base sm:text-lg text-ink-muted leading-relaxed">
+              Late February brings idyllic spring weather with sunny, pleasant days (26&deg;C–28&deg;C) and gentle, cool evenings (18&deg;C). Lightweight silks, handloom Sambalpuri weaves, and a light shawl for the evening reception are ideal.
+            </p>
+          </div>
+
+          <div class="heirloom-frame bg-surface rounded-2xl p-7 sm:p-8">
+            <span class="font-display text-[10px] uppercase tracking-[0.26em] text-accent font-semibold">03 &bull; Cultural Excursions</span>
+            <h3 class="font-display text-xl text-primary mt-1 mb-2">Heritage Highlights Nearby</h3>
+            <p class="font-serif text-base sm:text-lg text-ink-muted leading-relaxed">
+              If extending your stay, explore the ancient Kalinga architecture of <strong class="text-ink font-semibold">Lingaraj Temple</strong>, the serene <strong class="text-ink font-semibold">Dhauli Shanti Stupa</strong>, the <strong class="text-ink font-semibold">Udayagiri &amp; Khandagiri Caves</strong>, or a scenic coastal drive to Puri &amp; Konark.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =====================================================================
+       8. INTERACTIVE RSVP & DIGITAL BLESSINGS WALL
+       ===================================================================== -->
+  <section id="rsvp" class="py-24 px-4 sm:px-6 max-w-6xl mx-auto">
+    <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-start">
+
+      <!-- LEFT: Refined RSVP Card (6 Columns) -->
+      <div class="lg:col-span-6 heirloom-frame reveal bg-surface rounded-2xl p-7 sm:p-10">
+        <span class="font-display text-[11px] uppercase tracking-[0.3em] text-accent font-semibold">
+          Kindly Respond By January 25, 2027
+        </span>
+        <h2 class="font-display text-3xl sm:text-4xl text-primary mt-2 mb-2 tracking-wide">
+          R.S.V.P.
+        </h2>
+        <p class="font-serif text-lg text-ink-muted mb-7">
+          Your presence is the greatest blessing. Please confirm your attendance for February 21 &ndash; 22, 2027 at Hotel Crystal Crown.
+        </p>
+
+        <!--
+          ===================================================================
+          GITHUB PAGES BACKEND INTEGRATION GUIDE:
+          GitHub Pages serves static HTML cleanly. Out of the box, this RSVP
+          saves entries in browser localStorage with an instant confirmation.
+          To collect responses centrally in your email or Google Sheet:
+          1. Formspree (Zero-code): Sign up at https://formspree.io, create a form,
+             and add `action="https://formspree.io/f/YOUR_FORM_ID" method="POST"`
+             to <form id="rsvp-form"> (or POST via fetch() inside the submit listener).
+          2. Google Apps Script: Deploy a simple Web App script attached to a
+             Google Sheet and `fetch(SCRIPT_URL, { method: 'POST', body: JSON.stringify(entry) })`.
+          ===================================================================
+        -->
+        <form id="rsvp-form" class="space-y-5">
+          <div>
+            <label for="rsvp-name" class="block font-display text-[11px] uppercase tracking-[0.2em] font-semibold text-ink mb-1.5">
+              Guest Full Name(s) *
+            </label>
+            <input
+              id="rsvp-name"
+              name="name"
+              type="text"
+              required
+              placeholder="e.g., Dr. Subrat & Madhusmita Mohanty"
+              class="w-full px-4 py-3 rounded-xl bg-surface-alt/60 border border-accent/35 font-serif text-base text-ink focus:outline-none focus:border-primary focus:ring-2 focus:ring-primary/15 transition"
+            />
+          </div>
+
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <div>
+              <label for="rsvp-attending" class="block font-display text-[11px] uppercase tracking-[0.2em] font-semibold text-ink mb-1.5">
+                Attendance *
+              </label>
+              <select
+                id="rsvp-attending"
+                name="attending"
+                class="w-full px-4 py-3 rounded-xl bg-surface-alt/60 border border-accent/35 font-serif text-base text-ink focus:outline-none focus:border-primary transition"
+              >
+                <option value="yes">Joyfully Accepts</option>
+                <option value="no">Regretfully Declines</option>
+              </select>
+            </div>
+
+            <div>
+              <label for="rsvp-guests" class="block font-display text-[11px] uppercase tracking-[0.2em] font-semibold text-ink mb-1.5">
+                Number of Guests
+              </label>
+              <select
+                id="rsvp-guests"
+                name="guests"
+                class="w-full px-4 py-3 rounded-xl bg-surface-alt/60 border border-accent/35 font-serif text-base text-ink focus:outline-none focus:border-primary transition"
+              >
+                <option value="1">1 Guest</option>
+                <option value="2" selected>2 Guests</option>
+                <option value="3">3 Guests</option>
+                <option value="4">4 Guests (Family)</option>
+              </select>
+            </div>
+          </div>
+
+          <div>
+            <label class="block font-display text-[11px] uppercase tracking-[0.2em] font-semibold text-ink mb-2">
+              Ceremonies Attending
+            </label>
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-2.5 text-sm">
+              <label class="flex items-center gap-2 p-2.5 rounded-xl bg-surface-alt/60 border border-accent/25 cursor-pointer">
+                <input type="checkbox" name="events" value="Mehendi & Sangeet" checked class="accent-primary w-4 h-4" />
+                <span class="font-serif text-base text-ink">Mehendi &amp; Sangeet</span>
+              </label>
+              <label class="flex items-center gap-2 p-2.5 rounded-xl bg-surface-alt/60 border border-accent/25 cursor-pointer">
+                <input type="checkbox" name="events" value="Haldi Rituals" checked class="accent-primary w-4 h-4" />
+                <span class="font-serif text-base text-ink">Haldi Rituals</span>
+              </label>
+              <label class="flex items-center gap-2 p-2.5 rounded-xl bg-surface-alt/60 border border-accent/25 cursor-pointer">
+                <input type="checkbox" name="events" value="Subha Bibaha & Reception" checked class="accent-primary w-4 h-4" />
+                <span class="font-serif text-base text-ink">Wedding &amp; Reception</span>
+              </label>
+            </div>
+          </div>
+
+          <div>
+            <label for="rsvp-dietary" class="block font-display text-[11px] uppercase tracking-[0.2em] font-semibold text-ink mb-1.5">
+              Dietary Preferences / Notes
+            </label>
+            <input
+              id="rsvp-dietary"
+              name="dietary"
+              type="text"
+              placeholder="e.g., Pure Vegetarian, No Onion/Garlic, Airport Pickup Needed"
+              class="w-full px-4 py-3 rounded-xl bg-surface-alt/60 border border-accent/35 font-serif text-base text-ink focus:outline-none focus:border-primary focus:ring-2 focus:ring-primary/15 transition"
+            />
+          </div>
+
+          <button
+            type="submit"
+            class="w-full py-4 rounded-full bg-primary text-surface font-display text-xs uppercase tracking-[0.25em] font-semibold hover:bg-primary-dark transition shadow-md border border-accent/50 cursor-pointer"
+          >
+            Confirm Response
+          </button>
+        </form>
+
+        <!-- Instant Confirmation Card (Shown after submit) -->
+        <div id="rsvp-confirmation" class="hidden mt-4 p-7 rounded-2xl bg-surface-alt border border-accent text-center">
+          <div class="w-12 h-12 rounded-full bg-primary text-accent-bright border border-accent flex items-center justify-center mx-auto mb-3 font-serif text-xl">
+            &#10003;
+          </div>
+          <h3 id="rsvp-confirm-title" class="font-display text-xl text-primary tracking-wide">
+            Thank You! Your Response is Recorded
+          </h3>
+          <p id="rsvp-confirm-detail" class="font-serif text-base text-ink-muted mt-2 leading-relaxed"></p>
+          <button
+            id="rsvp-reset-btn"
+            type="button"
+            class="mt-5 font-display text-[10px] uppercase tracking-[0.22em] font-semibold text-primary underline hover:text-primary-dark cursor-pointer"
+          >
+            Edit or Submit Another Response
+          </button>
+        </div>
+      </div>
+
+      <!-- RIGHT: Digital Blessings & Guestbook Keepsake Wall (6 Columns) -->
+      <div id="guestbook" class="lg:col-span-6 heirloom-frame reveal bg-surface rounded-2xl p-7 sm:p-10">
+        <span class="font-display text-[11px] uppercase tracking-[0.3em] text-accent font-semibold">
+          Keepsake Guestbook
+        </span>
+        <h2 class="font-display text-3xl sm:text-4xl text-primary mt-2 mb-2 tracking-wide">
+          Blessings &amp; Wishes
+        </h2>
+        <p class="font-serif text-lg text-ink-muted mb-6">
+          Inscribe a blessing or heartfelt note for Ravi Sharma &amp; Debahuti Patnaik&rsquo;s wedding album.
+        </p>
+
+        <form id="wish-form" class="space-y-4 pb-7 border-b border-accent/25">
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+            <input
+              id="wish-author"
+              type="text"
+              required
+              placeholder="Your Name"
+              class="w-full px-4 py-2.5 rounded-xl bg-surface-alt/60 border border-accent/35 font-serif text-base text-ink focus:outline-none focus:border-primary transition"
+            />
+            <input
+              id="wish-relation"
+              type="text"
+              placeholder="Relation (e.g., Family, Friends)"
+              class="w-full px-4 py-2.5 rounded-xl bg-surface-alt/60 border border-accent/35 font-serif text-base text-ink focus:outline-none focus:border-primary transition"
+            />
+          </div>
+          <textarea
+            id="wish-message"
+            rows="3"
+            required
+            placeholder="Write your blessings for the couple..."
+            class="w-full px-4 py-2.5 rounded-xl bg-surface-alt/60 border border-accent/35 font-serif text-base text-ink focus:outline-none focus:border-primary transition resize-none"
+          ></textarea>
+          <button
+            type="submit"
+            class="px-6 py-3 rounded-full bg-surface-alt text-primary border border-accent/60 font-display text-[11px] uppercase tracking-[0.22em] font-semibold hover:bg-primary hover:text-surface transition cursor-pointer"
+          >
+            Inscribe Blessing
+          </button>
+        </form>
+
+        <!-- Blessings Wall Feed -->
+        <div id="wishes-list" class="mt-6 space-y-4 max-h-[390px] overflow-y-auto pr-1">
+          <!-- Populated dynamically via JavaScript & localStorage -->
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- =====================================================================
+       9. ENGRAVED HEIRLOOM FOOTER
+       ===================================================================== -->
+  <footer class="bg-primary-dark text-surface py-16 px-4 text-center border-t border-accent/40">
+    <div class="max-w-2xl mx-auto">
+      <p id="footer-monogram" class="font-display text-3xl sm:text-4xl text-accent-bright tracking-[0.28em] mb-3">
+        R &amp; D
+      </p>
+      <p id="footer-names-date" class="font-serif italic text-xl text-surface/90">
+        Ravi Sharma &amp; Debahuti Patnaik &bull; February 22, 2027 &bull; Hotel Crystal Crown, Bhubaneswar
+      </p>
+      <div class="engraved-divider my-5">
+        <span class="text-accent-bright text-xs">&#10022;</span>
+      </div>
+      <p class="font-display text-[10px] uppercase tracking-[0.3em] text-surface/65">
+        With Love &amp; Gratitude From Both Families
+      </p>
+    </div>
+  </footer>
+
+  <!-- =====================================================================
+       10. LIVE CUSTOMIZATION & GITHUB PAGES EXPORT DRAWER
+       ===================================================================== -->
+  <div id="customizer-backdrop" class="fixed inset-0 z-50 bg-black/45 backdrop-blur-xs hidden transition-opacity"></div>
+
+  <aside
+    id="customizer-drawer"
+    aria-label="Customize & Export Invitation Details"
+    class="fixed top-0 right-0 z-50 h-full w-full max-w-md bg-surface shadow-2xl border-l border-accent/40 transform translate-x-full transition-transform duration-300 flex flex-col"
+  >
+    <div class="p-6 border-b border-accent/25 flex items-center justify-between bg-surface-alt">
+      <div>
+        <span class="font-display text-[10px] uppercase tracking-[0.28em] text-accent font-bold">Heirloom Studio</span>
+        <h3 class="font-display text-xl text-primary tracking-wide">Customize &amp; Export</h3>
+      </div>
+      <button
+        id="close-customizer-btn"
+        type="button"
+        aria-label="Close Customizer"
+        class="w-9 h-9 rounded-full bg-surface text-ink hover:bg-primary hover:text-surface border border-accent/30 flex items-center justify-center transition cursor-pointer"
+      >
+        &#10005;
+      </button>
+    </div>
+
+    <div class="p-6 flex-1 overflow-y-auto space-y-5">
+      <!-- Two Classic Heirloom Palettes -->
+      <div>
+        <label class="block font-display text-[11px] uppercase tracking-[0.2em] font-bold text-ink mb-2">
+          1. Classic Palette
+        </label>
+        <div class="grid grid-cols-1 gap-2.5">
+          <button
+            type="button"
+            data-set-theme="ivory-burgundy"
+            class="theme-choice-btn flex items-center justify-between p-3 rounded-xl border-2 border-primary bg-surface-alt/60 text-left cursor-pointer"
+          >
+            <span class="font-serif text-base font-semibold text-ink">Alabaster Ivory &amp; Royal Burgundy</span>
+            <span class="flex items-center gap-1.5">
+              <span class="w-4 h-4 rounded-full bg-[#faf6f0] border border-gray-300"></span>
+              <span class="w-4 h-4 rounded-full bg-[#5c1a24]"></span>
+              <span class="w-4 h-4 rounded-full bg-[#b8893a]"></span>
+            </span>
+          </button>
+
+          <button
+            type="button"
+            data-set-theme="ivory-navy"
+            class="theme-choice-btn flex items-center justify-between p-3 rounded-xl border border-accent/30 bg-surface-alt/60 text-left cursor-pointer"
+          >
+            <span class="font-serif text-base font-semibold text-ink">Alabaster Ivory &amp; Imperial Navy</span>
+            <span class="flex items-center gap-1.5">
+              <span class="w-4 h-4 rounded-full bg-[#faf7f2] border border-gray-300"></span>
+              <span class="w-4 h-4 rounded-full bg-[#16263e]"></span>
+              <span class="w-4 h-4 rounded-full bg-[#b8893a]"></span>
+            </span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Couple Names -->
+      <div class="grid grid-cols-2 gap-3">
+        <div>
+          <label for="cfg-groom" class="block font-display text-[10px] uppercase tracking-[0.18em] font-bold text-ink mb-1">
+            Groom&rsquo;s Name
+          </label>
+          <input
+            id="cfg-groom"
+            type="text"
+            value="Ravi Sharma"
+            class="w-full px-3.5 py-2 rounded-xl bg-surface-alt/70 border border-accent/35 font-serif text-base focus:outline-none focus:border-primary"
+          />
+        </div>
+        <div>
+          <label for="cfg-bride" class="block font-display text-[10px] uppercase tracking-[0.18em] font-bold text-ink mb-1">
+            Bride&rsquo;s Name
+          </label>
+          <input
+            id="cfg-bride"
+            type="text"
+            value="Debahuti Patnaik"
+            class="w-full px-3.5 py-2 rounded-xl bg-surface-alt/70 border border-accent/35 font-serif text-base focus:outline-none focus:border-primary"
+          />
+        </div>
+      </div>
+
+      <!-- Family Host Line -->
+      <div>
+        <label for="cfg-hosts" class="block font-display text-[10px] uppercase tracking-[0.18em] font-bold text-ink mb-1">
+          Family Host Line
+        </label>
+        <input
+          id="cfg-hosts"
+          type="text"
+          value="Together with their families,"
+          class="w-full px-3.5 py-2 rounded-xl bg-surface-alt/70 border border-accent/35 font-serif text-base focus:outline-none focus:border-primary"
+        />
+      </div>
+
+      <!-- Venue Name, Full Address & Google Maps Link -->
+      <div>
+        <label for="cfg-venue" class="block font-display text-[10px] uppercase tracking-[0.18em] font-bold text-ink mb-1">
+          Venue Name
+        </label>
+        <input
+          id="cfg-venue"
+          type="text"
+          value="Hotel Crystal Crown"
+          class="w-full px-3.5 py-2 rounded-xl bg-surface-alt/70 border border-accent/35 font-serif text-base focus:outline-none focus:border-primary"
+        />
+      </div>
+
+      <div>
+        <label for="cfg-address" class="block font-display text-[10px] uppercase tracking-[0.18em] font-bold text-ink mb-1">
+          City &amp; Address
+        </label>
+        <input
+          id="cfg-address"
+          type="text"
+          value="Bhubaneswar, Odisha, India"
+          class="w-full px-3.5 py-2 rounded-xl bg-surface-alt/70 border border-accent/35 font-serif text-base focus:outline-none focus:border-primary"
+        />
+      </div>
+
+      <div>
+        <label for="cfg-maps-url" class="block font-display text-[10px] uppercase tracking-[0.18em] font-bold text-ink mb-1">
+          Google Maps Link
+        </label>
+        <input
+          id="cfg-maps-url"
+          type="url"
+          value="https://maps.app.goo.gl/KEmHkvSXMdsji7jV8"
+          class="w-full px-3.5 py-2 rounded-xl bg-surface-alt/70 border border-accent/35 font-serif text-base focus:outline-none focus:border-primary"
+        />
+      </div>
+
+      <!-- Ceremony Timings -->
+      <div class="grid grid-cols-1 gap-2.5">
+        <div>
+          <label for="cfg-ev1-time" class="block font-display text-[10px] uppercase tracking-[0.18em] font-bold text-ink mb-1">
+            Mehendi &amp; Sangeet Timing (Feb 21)
+          </label>
+          <input
+            id="cfg-ev1-time"
+            type="text"
+            value="5:00 PM Onwards"
+            class="w-full px-3.5 py-2 rounded-xl bg-surface-alt/70 border border-accent/35 font-serif text-base focus:outline-none focus:border-primary"
+          />
+        </div>
+        <div>
+          <label for="cfg-ev2-time" class="block font-display text-[10px] uppercase tracking-[0.18em] font-bold text-ink mb-1">
+            Haldi &amp; Rituals Timing (Feb 22 Morning)
+          </label>
+          <input
+            id="cfg-ev2-time"
+            type="text"
+            value="10:00 AM – 1:00 PM"
+            class="w-full px-3.5 py-2 rounded-xl bg-surface-alt/70 border border-accent/35 font-serif text-base focus:outline-none focus:border-primary"
+          />
+        </div>
+        <div>
+          <label for="cfg-ev3-time" class="block font-display text-[10px] uppercase tracking-[0.18em] font-bold text-ink mb-1">
+            Subha Bibaha Muhurat &amp; Reception (Feb 22)
+          </label>
+          <input
+            id="cfg-ev3-time"
+            type="text"
+            value="7:00 PM Onwards"
+            class="w-full px-3.5 py-2 rounded-xl bg-surface-alt/70 border border-accent/35 font-serif text-base focus:outline-none focus:border-primary"
+          />
+        </div>
+      </div>
+
+      <!-- Family Contact Number -->
+      <div>
+        <label for="cfg-contact" class="block font-display text-[10px] uppercase tracking-[0.18em] font-bold text-ink mb-1">
+          Family Concierge Contact Number
+        </label>
+        <input
+          id="cfg-contact"
+          type="text"
+          value="+91 98610 12345"
+          class="w-full px-3.5 py-2 rounded-xl bg-surface-alt/70 border border-accent/35 font-serif text-base focus:outline-none focus:border-primary"
+        />
+      </div>
+
+      <!-- Download Updated Standalone index.html -->
+      <div class="pt-4 border-t border-accent/25">
+        <p class="font-serif text-sm text-ink-muted mb-3 leading-relaxed">
+          Export your personalized <code class="text-primary font-semibold">index.html</code> with all updated venue details, timings, and theme baked in—ready to upload directly to GitHub Pages.
+        </p>
+        <button
+          id="export-html-btn"
+          type="button"
+          class="w-full py-3.5 rounded-full bg-primary text-surface font-display text-xs uppercase tracking-[0.22em] font-semibold hover:bg-primary-dark transition shadow-md border border-accent/50 cursor-pointer"
+        >
+          Download Customized index.html
+        </button>
+      </div>
+    </div>
+  </aside>
+
+  <!-- Non-Intrusive Toast Notification Banner -->
+  <div
+    id="toast-banner"
+    class="fixed top-20 left-1/2 -translate-x-1/2 z-50 px-5 py-2.5 rounded-full bg-primary-dark text-surface font-display text-[11px] uppercase tracking-[0.2em] shadow-xl border border-accent/50 opacity-0 pointer-events-none transition-all duration-300"
+  >
+    Notification
+  </div>
+
+  <!-- =====================================================================
+       JAVASCRIPT: WAX SEAL REVEAL, CLASSICAL HARP CHIMES, GOLDEN DUST CANVAS,
+       COUNTDOWN, .ICS GENERATOR, RSVP, GUESTBOOK & LIVE HTML EXPORT
+       ===================================================================== -->
+  <script>
+    /**
+     * HEIRLOOM WEDDING CONFIGURATION
+     * Automatically updated inside the file when downloaded via "Download Customized index.html"
+     */
+    const WEDDING_CONFIG = {
+      groom: "Ravi Sharma",
+      bride: "Debahuti Patnaik",
+      hosts: "Together with their families,",
+      dateISO: "2027-02-22T19:00:00+05:30",
+      city: "Bhubaneswar, Odisha, India",
+      venue: "Hotel Crystal Crown",
+      address: "Bhubaneswar, Odisha, India",
+      mapsUrl: "https://maps.app.goo.gl/KEmHkvSXMdsji7jV8",
+      ev1Time: "5:00 PM Onwards",
+      ev2Time: "10:00 AM – 1:00 PM",
+      ev3Time: "7:00 PM Onwards",
+      contact: "+91 98610 12345",
+      theme: "ivory-burgundy"
+    };
+
+    document.addEventListener("DOMContentLoaded", () => {
+      // -------------------------------------------------------------------
+      // 0. Toast Notification Helper
+      // -------------------------------------------------------------------
+      const toastEl = document.getElementById("toast-banner");
+      let toastTimeout = null;
+      function showToast(message) {
+        toastEl.textContent = message;
+        toastEl.classList.remove("opacity-0", "-translate-y-2");
+        toastEl.classList.add("opacity-100", "translate-y-0");
+        clearTimeout(toastTimeout);
+        toastTimeout = setTimeout(() => {
+          toastEl.classList.remove("opacity-100", "translate-y-0");
+          toastEl.classList.add("opacity-0", "-translate-y-2");
+        }, 3200);
+      }
+
+      // -------------------------------------------------------------------
+      // 1. Web Audio API Classical Harp & Celesta Arpeggio Chimes
+      // -------------------------------------------------------------------
+      let audioCtx = null;
+      let isMusicPlaying = false;
+      let melodyInterval = null;
+
+      // Warm classical major-9th harp notes in Hz (F4, A4, C5, E5, G5, A5, C6)
+      const HARP_NOTES = [349.23, 440.00, 523.25, 659.25, 783.99, 880.00, 1046.50];
+      const ARPEGGIO_SEQ = [0, 1, 2, 3, 4, 5, 4, 3, 2, 1, 2, 4];
+      let stepIdx = 0;
+
+      function pluckClassicalNote(freq) {
+        if (!audioCtx) return;
+        const now = audioCtx.currentTime;
+        const osc = audioCtx.createOscillator();
+        const overtone = audioCtx.createOscillator();
+        const gain = audioCtx.createGain();
+
+        osc.type = "sine";
+        osc.frequency.setValueAtTime(freq, now);
+
+        // Subtle octave harmonic for celesta/harp shimmer
+        overtone.type = "triangle";
+        overtone.frequency.setValueAtTime(freq * 2, now);
+
+        const overtoneGain = audioCtx.createGain();
+        overtoneGain.gain.setValueAtTime(0.008, now);
+        overtoneGain.gain.exponentialRampToValueAtTime(0.0001, now + 1.2);
+
+        gain.gain.setValueAtTime(0.0001, now);
+        gain.gain.exponentialRampToValueAtTime(0.042, now + 0.06);
+        gain.gain.exponentialRampToValueAtTime(0.0001, now + 2.8);
+
+        osc.connect(gain);
+        overtone.connect(overtoneGain);
+        overtoneGain.connect(gain);
+        gain.connect(audioCtx.destination);
+
+        osc.start(now);
+        overtone.start(now);
+        osc.stop(now + 2.9);
+        overtone.stop(now + 1.3);
+      }
+
+      function startAmbientMusic() {
+        try {
+          if (!audioCtx) {
+            const AudioContextClass = window.AudioContext || window.webkitAudioContext;
+            audioCtx = new AudioContextClass();
+          }
+          if (audioCtx.state === "suspended") {
+            audioCtx.resume();
+          }
+          if (isMusicPlaying) return;
+
+          isMusicPlaying = true;
+          updateMusicUI();
+
+          pluckClassicalNote(HARP_NOTES[ARPEGGIO_SEQ[stepIdx % ARPEGGIO_SEQ.length]]);
+          stepIdx++;
+
+          melodyInterval = setInterval(() => {
+            if (!isMusicPlaying) return;
+            const freq = HARP_NOTES[ARPEGGIO_SEQ[stepIdx % ARPEGGIO_SEQ.length]];
+            pluckClassicalNote(freq);
+            stepIdx++;
+          }, 1050);
+        } catch (err) {
+          console.warn("Audio context blocked until interaction:", err);
+        }
+      }
+
+      function stopAmbientMusic() {
+        isMusicPlaying = false;
+        clearInterval(melodyInterval);
+        updateMusicUI();
+      }
+
+      function updateMusicUI() {
+        const icon = document.getElementById("music-icon");
+        const label = document.getElementById("music-label");
+        if (isMusicPlaying) {
+          icon.classList.remove("bg-ink-muted");
+          icon.classList.add("bg-accent", "animate-ping");
+          label.textContent = "Chimes: On";
+        } else {
+          icon.classList.remove("bg-accent", "animate-ping");
+          icon.classList.add("bg-ink-muted");
+          label.textContent = "Chimes: Off";
+        }
+      }
+
+      document.getElementById("music-toggle-btn").addEventListener("click", () => {
+        if (isMusicPlaying) {
+          stopAmbientMusic();
+        } else {
+          startAmbientMusic();
+        }
+      });
+
+      // -------------------------------------------------------------------
+      // 2. Crimson Wax Seal Break & Engraved Envelope Reveal
+      // -------------------------------------------------------------------
+      const envelopeOverlay = document.getElementById("envelope-overlay");
+      const unsealBtn = document.getElementById("unseal-btn");
+
+      unsealBtn.addEventListener("click", () => {
+        startAmbientMusic();
+        unsealBtn.style.transform = "scale(1.14) rotate(6deg)";
+        unsealBtn.style.opacity = "0";
+        unsealBtn.style.transition = "transform 0.45s ease, opacity 0.4s ease";
+
+        setTimeout(() => {
+          envelopeOverlay.classList.add("opening");
+        }, 220);
+
+        setTimeout(() => {
+          envelopeOverlay.classList.add("opened");
+          triggerScrollReveals();
+        }, 750);
+      });
+
+      // -------------------------------------------------------------------
+      // 3. Subtle Floating Golden Dust Motes & White Jasmine Petals Canvas
+      // -------------------------------------------------------------------
+      const canvas = document.getElementById("petals-canvas");
+      const ctx = canvas.getContext("2d");
+      let particles = [];
+
+      function resizeCanvas() {
+        const parent = canvas.parentElement;
+        canvas.width = parent.clientWidth;
+        canvas.height = parent.clientHeight;
+      }
+
+      function createParticles() {
+        const count = Math.min(38, Math.floor(window.innerWidth / 32));
+        particles = Array.from({ length: count }, () => ({
+          x: Math.random() * canvas.width,
+          y: Math.random() * canvas.height,
+          size: Math.random() * 4.5 + 2.2,
+          speedY: Math.random() * 0.48 + 0.18,
+          speedX: (Math.random() - 0.5) * 0.35,
+          angle: Math.random() * Math.PI * 2,
+          spin: (Math.random() - 0.5) * 0.016,
+          isGoldMote: Math.random() > 0.45,
+          opacity: Math.random() * 0.45 + 0.2
+        }));
+      }
+
+      function animatePetals() {
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+        const styles = getComputedStyle(document.body);
+        const goldRgb = styles.getPropertyValue("--petal-gold-rgb").trim() || "212, 175, 55";
+        const ivoryRgb = styles.getPropertyValue("--petal-ivory-rgb").trim() || "255, 250, 240";
+
+        for (const p of particles) {
+          p.y += p.speedY;
+          p.x += p.speedX + Math.sin(p.angle) * 0.28;
+          p.angle += p.spin;
+
+          if (p.y > canvas.height + 12) {
+            p.y = -12;
+            p.x = Math.random() * canvas.width;
+          }
+          if (p.x > canvas.width + 12) p.x = -12;
+          if (p.x < -12) p.x = canvas.width + 12;
+
+          ctx.save();
+          ctx.translate(p.x, p.y);
+          ctx.rotate(p.angle);
+
+          if (p.isGoldMote) {
+            // Soft floating antique gold dust mote
+            ctx.fillStyle = `rgba(${goldRgb}, ${p.opacity})`;
+            ctx.beginPath();
+            ctx.arc(0, 0, p.size * 0.65, 0, Math.PI * 2);
+            ctx.fill();
+          } else {
+            // Delicate jasmine petal
+            ctx.fillStyle = `rgba(${ivoryRgb}, ${p.opacity * 0.9})`;
+            ctx.strokeStyle = `rgba(${goldRgb}, ${p.opacity * 0.35})`;
+            ctx.lineWidth = 0.6;
+            ctx.beginPath();
+            ctx.ellipse(0, 0, p.size * 1.15, p.size * 0.5, 0, 0, Math.PI * 2);
+            ctx.fill();
+            ctx.stroke();
+          }
+          ctx.restore();
+        }
+
+        requestAnimationFrame(animatePetals);
+      }
+
+      window.addEventListener("resize", resizeCanvas);
+      resizeCanvas();
+      createParticles();
+      animatePetals();
+
+      // -------------------------------------------------------------------
+      // 4. Classical Countdown Timer & Pre-Populated Bhubaneswar .ICS File
+      // -------------------------------------------------------------------
+      const targetTimestamp = new Date(WEDDING_CONFIG.dateISO).getTime();
+
+      function updateCountdown() {
+        const now = Date.now();
+        const diff = Math.max(0, targetTimestamp - now);
+
+        const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+        const hours = Math.floor((diff / (1000 * 60 * 60)) % 24);
+        const minutes = Math.floor((diff / 1000 / 60) % 60);
+        const seconds = Math.floor((diff / 1000) % 60);
+
+        document.getElementById("cd-days").textContent = String(days).padStart(2, "0");
+        document.getElementById("cd-hours").textContent = String(hours).padStart(2, "0");
+        document.getElementById("cd-minutes").textContent = String(minutes).padStart(2, "0");
+        document.getElementById("cd-seconds").textContent = String(seconds).padStart(2, "0");
+      }
+
+      updateCountdown();
+      setInterval(updateCountdown, 1000);
+
+      document.getElementById("add-calendar-btn").addEventListener("click", () => {
+        const start = new Date(WEDDING_CONFIG.dateISO);
+        const end = new Date(start.getTime() + 4 * 60 * 60 * 1000);
+        const fmt = (d) => d.toISOString().replace(/[-:]/g, "").split(".")[0] + "Z";
+
+        const icsContent = [
+          "BEGIN:VCALENDAR",
+          "VERSION:2.0",
+          "PRODID:-//Heirloom Wedding Invitation//EN",
+          "BEGIN:VEVENT",
+          `DTSTART:${fmt(start)}`,
+          `DTEND:${fmt(end)}`,
+          `SUMMARY:Subha Bibaha: ${WEDDING_CONFIG.groom} & ${WEDDING_CONFIG.bride}`,
+          `LOCATION:${WEDDING_CONFIG.venue}, ${WEDDING_CONFIG.address} (${WEDDING_CONFIG.mapsUrl})`,
+          `DESCRIPTION:${WEDDING_CONFIG.hosts} ${WEDDING_CONFIG.groom} & ${WEDDING_CONFIG.bride} joyfully invite you to celebrate their sacred union at ${WEDDING_CONFIG.venue}, Bhubaneswar. Map: ${WEDDING_CONFIG.mapsUrl}`,
+          "END:VEVENT",
+          "END:VCALENDAR"
+        ].join("\r\n");
+
+        const blob = new Blob([icsContent], { type: "text/calendar;charset=utf-8" });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement("a");
+        a.href = url;
+        a.download = `Ravi-Sharma-Debahuti-Patnaik-Wedding-Feb22.ics`;
+        a.click();
+        URL.revokeObjectURL(url);
+        showToast("Feb 22 wedding invite (.ics) downloaded!");
+      });
+
+      // -------------------------------------------------------------------
+      // 5. Interactive Bhubaneswar Festivities Day Filter & Venue/Map Copy
+      // -------------------------------------------------------------------
+      const dayTabBtns = document.querySelectorAll(".day-tab-btn");
+      const eventCards = document.querySelectorAll(".event-card");
+
+      dayTabBtns.forEach((btn) => {
+        btn.addEventListener("click", () => {
+          const filter = btn.getAttribute("data-day-filter");
+
+          dayTabBtns.forEach((b) => {
+            b.classList.remove("bg-primary", "text-surface", "shadow-xs");
+            b.classList.add("text-ink-muted");
+          });
+          btn.classList.add("bg-primary", "text-surface", "shadow-xs");
+          btn.classList.remove("text-ink-muted");
+
+          eventCards.forEach((card) => {
+            if (filter === "all" || card.getAttribute("data-day") === filter) {
+              card.classList.remove("hidden");
+            } else {
+              card.classList.add("hidden");
+            }
+          });
+        });
+      });
+
+      function copyVenueToClipboard() {
+        const fullVenueAndMap = `${WEDDING_CONFIG.venue}, ${WEDDING_CONFIG.address} — Google Maps: ${WEDDING_CONFIG.mapsUrl}`;
+        const tempInput = document.createElement("textarea");
+        tempInput.value = fullVenueAndMap;
+        document.body.appendChild(tempInput);
+        tempInput.select();
+        try {
+          document.execCommand("copy");
+          showToast("Hotel Crystal Crown & Google Maps link copied!");
+        } catch (err) {
+          showToast(fullVenueAndMap);
+        }
+        document.body.removeChild(tempInput);
+      }
+
+      document.getElementById("copy-address-btn").addEventListener("click", copyVenueToClipboard);
+      document.querySelectorAll(".copy-venue-btn").forEach((btn) => {
+        btn.addEventListener("click", copyVenueToClipboard);
+      });
+
+      // -------------------------------------------------------------------
+      // 6. Interactive RSVP with Gold-Leaf Confetti & LocalStorage
+      // -------------------------------------------------------------------
+      const rsvpForm = document.getElementById("rsvp-form");
+      const rsvpConfirmation = document.getElementById("rsvp-confirmation");
+      const rsvpConfirmTitle = document.getElementById("rsvp-confirm-title");
+      const rsvpConfirmDetail = document.getElementById("rsvp-confirm-detail");
+
+      function displayRSVPState(data) {
+        rsvpForm.classList.add("hidden");
+        rsvpConfirmation.classList.remove("hidden");
+
+        if (data.attending === "yes") {
+          rsvpConfirmTitle.textContent = `We Look Forward to Welcoming You, ${data.name}`;
+          const evText = data.events && data.events.length ? ` • Ceremonies: ${data.events.join(", ")}` : "";
+          const dietText = data.dietary ? ` • Notes: ${data.dietary}` : "";
+          rsvpConfirmDetail.textContent = `Reserved for ${data.guests} guest(s) at ${WEDDING_CONFIG.venue}, Bhubaneswar${evText}${dietText}.`;
+        } else {
+          rsvpConfirmTitle.textContent = `Thank You for Your Warm Wishes, ${data.name}`;
+          rsvpConfirmDetail.textContent = "We will miss your presence in Bhubaneswar and look forward to celebrating together soon.";
+        }
+      }
+
+      const savedRSVP = localStorage.getItem("sharma_patnaik_wedding_rsvp");
+      if (savedRSVP) {
+        try {
+          displayRSVPState(JSON.parse(savedRSVP));
+        } catch (e) { /* ignore malformed storage */ }
+      }
+
+      rsvpForm.addEventListener("submit", (e) => {
+        e.preventDefault();
+        const checkedEvents = Array.from(rsvpForm.querySelectorAll('input[name="events"]:checked')).map((cb) => cb.value);
+
+        const entry = {
+          name: document.getElementById("rsvp-name").value.trim(),
+          attending: document.getElementById("rsvp-attending").value,
+          guests: document.getElementById("rsvp-guests").value,
+          events: checkedEvents,
+          dietary: document.getElementById("rsvp-dietary").value.trim(),
+          submittedAt: new Date().toISOString()
+        };
+
+        localStorage.setItem("sharma_patnaik_wedding_rsvp", JSON.stringify(entry));
+        displayRSVPState(entry);
+
+        // Celebratory Gold-Leaf Confetti Burst
+        if (entry.attending === "yes" && typeof confetti === "function") {
+          confetti({
+            particleCount: 90,
+            spread: 68,
+            origin: { y: 0.65 },
+            colors: ["#b8893a", "#d4af37", "#5c1a24", "#faf6f0"]
+          });
+        }
+        showToast("Your RSVP has been recorded!");
+      });
+
+      document.getElementById("rsvp-reset-btn").addEventListener("click", () => {
+        rsvpConfirmation.classList.add("hidden");
+        rsvpForm.classList.remove("hidden");
+      });
+
+      // -------------------------------------------------------------------
+      // 7. Blessings & Wishes Keepsake Wall (Pre-seeded + LocalStorage)
+      // -------------------------------------------------------------------
+      const DEFAULT_WISHES = [
+        {
+          author: "Subrat & Madhusmita Mohanty",
+          relation: "Family Elders, Cuttack",
+          message: "May Lord Jagannath shower His choicest blessings upon Ravi and Debahuti as you embark on this sacred journey of togetherness.",
+          date: "2 days ago"
+        },
+        {
+          author: "Anwesha Das & Rohan Mishra",
+          relation: "Friends, Bhubaneswar",
+          message: "Heartiest congratulations to Ravi & Debahuti! Counting down the days to celebrate with both families at Hotel Crystal Crown on February 22nd.",
+          date: "4 days ago"
+        }
+      ];
+
+      function getWishes() {
+        try {
+          const stored = localStorage.getItem("sharma_patnaik_wedding_wishes");
+          return stored ? JSON.parse(stored) : DEFAULT_WISHES;
+        } catch (e) {
+          return DEFAULT_WISHES;
+        }
+      }
+
+      function escapeHTML(str) {
+        const div = document.createElement("div");
+        div.textContent = str;
+        return div.innerHTML;
+      }
+
+      function renderWishes() {
+        const listEl = document.getElementById("wishes-list");
+        const wishes = getWishes();
+        listEl.innerHTML = wishes
+          .map(
+            (w) => `
+            <div class="p-4 rounded-xl bg-surface-alt/75 border border-accent/25">
+              <div class="flex items-center justify-between gap-2 mb-1">
+                <div>
+                  <span class="font-display text-sm font-semibold text-primary tracking-wide">${escapeHTML(w.author)}</span>
+                  ${w.relation ? `<span class="font-serif italic text-sm text-accent ml-2">&bull; ${escapeHTML(w.relation)}</span>` : ""}
+                </div>
+                <span class="font-display text-[9px] uppercase tracking-widest text-ink-muted">${escapeHTML(w.date)}</span>
+              </div>
+              <p class="font-serif text-base text-ink-muted leading-relaxed">${escapeHTML(w.message)}</p>
+            </div>
+          `
+          )
+          .join("");
+      }
+
+      renderWishes();
+
+      document.getElementById("wish-form").addEventListener("submit", (e) => {
+        e.preventDefault();
+        const author = document.getElementById("wish-author").value.trim();
+        const relation = document.getElementById("wish-relation").value.trim();
+        const message = document.getElementById("wish-message").value.trim();
+
+        if (!author || !message) return;
+
+        const wishes = getWishes();
+        wishes.unshift({
+          author,
+          relation,
+          message,
+          date: "Just now"
+        });
+
+        localStorage.setItem("sharma_patnaik_wedding_wishes", JSON.stringify(wishes));
+        renderWishes();
+        e.target.reset();
+        showToast("Your blessing has been inscribed on the wall!");
+      });
+
+      // -------------------------------------------------------------------
+      // 8. Live Customization Drawer & Standalone HTML Exporter
+      // -------------------------------------------------------------------
+      const drawer = document.getElementById("customizer-drawer");
+      const backdrop = document.getElementById("customizer-backdrop");
+
+      function openDrawer() {
+        backdrop.classList.remove("hidden");
+        drawer.classList.remove("translate-x-full");
+      }
+
+      function closeDrawer() {
+        backdrop.classList.add("hidden");
+        drawer.classList.add("translate-x-full");
+      }
+
+      document.getElementById("open-customizer-btn").addEventListener("click", openDrawer);
+      document.getElementById("close-customizer-btn").addEventListener("click", closeDrawer);
+      backdrop.addEventListener("click", closeDrawer);
+
+      function applyWeddingConfig() {
+        const groom = WEDDING_CONFIG.groom || "Ravi Sharma";
+        const bride = WEDDING_CONFIG.bride || "Debahuti Patnaik";
+        const initials = `${groom.charAt(0).toUpperCase()}&${bride.charAt(0).toUpperCase()}`;
+        const initialsSpaced = `${groom.charAt(0).toUpperCase()} & ${bride.charAt(0).toUpperCase()}`;
+
+        document.title = `Wedding Invitation — ${groom} & ${bride} | Bhubaneswar`;
+        document.getElementById("envelope-names").textContent = `${groom} & ${bride}`;
+        document.getElementById("envelope-date-venue").textContent = `Monday, February 22, 2027 • ${WEDDING_CONFIG.venue}, Bhubaneswar`;
+        document.getElementById("seal-monogram").textContent = initials;
+        document.getElementById("nav-monogram").textContent = initialsSpaced;
+
+        document.getElementById("hero-host-text").textContent = WEDDING_CONFIG.hosts;
+        document.getElementById("hero-names").innerHTML = `${escapeHTML(groom)}<span class="block font-script text-4xl sm:text-6xl text-accent my-1 lowercase font-normal">&amp;</span>${escapeHTML(bride)}`;
+        document.getElementById("hero-time-text").textContent = `Auspicious Wedding Ceremony at ${WEDDING_CONFIG.ev3Time}`;
+
+        const heroVenueLink = document.getElementById("hero-venue-link");
+        heroVenueLink.innerHTML = `${escapeHTML(WEDDING_CONFIG.venue)} &bull; Bhubaneswar, Odisha &#8599;`;
+        heroVenueLink.href = WEDDING_CONFIG.mapsUrl;
+
+        // Update Event Timings & Venues
+        document.getElementById("ev1-time").textContent = WEDDING_CONFIG.ev1Time;
+        document.getElementById("ev2-time").textContent = WEDDING_CONFIG.ev2Time;
+        document.getElementById("ev3-time").textContent = WEDDING_CONFIG.ev3Time;
+
+        document.querySelectorAll(".ev-venue-display").forEach((el) => {
+          el.textContent = `${WEDDING_CONFIG.venue}, Bhubaneswar`;
+        });
+        document.querySelectorAll(".ev-maps-link").forEach((el) => {
+          el.href = WEDDING_CONFIG.mapsUrl;
+        });
+
+        // Update Travel & Venue Spotlight Section
+        document.getElementById("travel-venue-title").textContent = WEDDING_CONFIG.venue;
+        document.getElementById("travel-venue-address").textContent = WEDDING_CONFIG.address;
+        document.getElementById("travel-contact-display").textContent = WEDDING_CONFIG.contact;
+        document.getElementById("travel-maps-link").href = WEDDING_CONFIG.mapsUrl;
+
+        const travelUrlText = document.getElementById("travel-maps-url-text");
+        travelUrlText.textContent = WEDDING_CONFIG.mapsUrl;
+        travelUrlText.href = WEDDING_CONFIG.mapsUrl;
+
+        // Footer
+        document.getElementById("footer-monogram").textContent = initialsSpaced;
+        document.getElementById("footer-names-date").textContent = `${groom} & ${bride} • February 22, 2027 • ${WEDDING_CONFIG.venue}, Bhubaneswar`;
+
+        // Apply Palette
+        document.body.setAttribute("data-theme", WEDDING_CONFIG.theme);
+        document.querySelectorAll(".theme-choice-btn").forEach((btn) => {
+          if (btn.getAttribute("data-set-theme") === WEDDING_CONFIG.theme) {
+            btn.classList.add("border-2", "border-primary");
+            btn.classList.remove("border", "border-accent/30");
+          } else {
+            btn.classList.remove("border-2", "border-primary");
+            btn.classList.add("border", "border-accent/30");
+          }
+        });
+      }
+
+      // Bind Drawer Inputs
+      const inpGroom = document.getElementById("cfg-groom");
+      const inpBride = document.getElementById("cfg-bride");
+      const inpHosts = document.getElementById("cfg-hosts");
+      const inpVenue = document.getElementById("cfg-venue");
+      const inpAddress = document.getElementById("cfg-address");
+      const inpMapsUrl = document.getElementById("cfg-maps-url");
+      const inpEv1 = document.getElementById("cfg-ev1-time");
+      const inpEv2 = document.getElementById("cfg-ev2-time");
+      const inpEv3 = document.getElementById("cfg-ev3-time");
+      const inpContact = document.getElementById("cfg-contact");
+
+      inpGroom.value = WEDDING_CONFIG.groom;
+      inpBride.value = WEDDING_CONFIG.bride;
+      inpHosts.value = WEDDING_CONFIG.hosts;
+      inpVenue.value = WEDDING_CONFIG.venue;
+      inpAddress.value = WEDDING_CONFIG.address;
+      inpMapsUrl.value = WEDDING_CONFIG.mapsUrl;
+      inpEv1.value = WEDDING_CONFIG.ev1Time;
+      inpEv2.value = WEDDING_CONFIG.ev2Time;
+      inpEv3.value = WEDDING_CONFIG.ev3Time;
+      inpContact.value = WEDDING_CONFIG.contact;
+
+      [inpGroom, inpBride, inpHosts, inpVenue, inpAddress, inpMapsUrl, inpEv1, inpEv2, inpEv3, inpContact].forEach((input) => {
+        input.addEventListener("input", () => {
+          WEDDING_CONFIG.groom = inpGroom.value;
+          WEDDING_CONFIG.bride = inpBride.value;
+          WEDDING_CONFIG.hosts = inpHosts.value;
+          WEDDING_CONFIG.venue = inpVenue.value;
+          WEDDING_CONFIG.address = inpAddress.value;
+          WEDDING_CONFIG.mapsUrl = inpMapsUrl.value;
+          WEDDING_CONFIG.ev1Time = inpEv1.value;
+          WEDDING_CONFIG.ev2Time = inpEv2.value;
+          WEDDING_CONFIG.ev3Time = inpEv3.value;
+          WEDDING_CONFIG.contact = inpContact.value;
+          applyWeddingConfig();
+        });
+      });
+
+      document.querySelectorAll(".theme-choice-btn").forEach((btn) => {
+        btn.addEventListener("click", () => {
+          WEDDING_CONFIG.theme = btn.getAttribute("data-set-theme");
+          applyWeddingConfig();
+        });
+      });
+
+      // Export Updated Standalone HTML for GitHub Pages
+      document.getElementById("export-html-btn").addEventListener("click", () => {
+        let rawHTML = "<!DOCTYPE html>\n" + document.documentElement.outerHTML;
+        const configRegex = /const WEDDING_CONFIG = \{[\s\S]*?\};/;
+        const updatedConfigBlock = `const WEDDING_CONFIG = ${JSON.stringify(WEDDING_CONFIG, null, 6)};`;
+        rawHTML = rawHTML.replace(configRegex, updatedConfigBlock);
+
+        // Reset envelope state so guests see the wax seal when opening the hosted site
+        rawHTML = rawHTML.replace(
+          /id="envelope-overlay" class="[^"]*"/,
+          'id="envelope-overlay" class="fixed inset-0 z-50 flex items-center justify-center overflow-hidden"'
+        );
+
+        const blob = new Blob([rawHTML], { type: "text/html;charset=utf-8" });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement("a");
+        a.href = url;
+        a.download = "index.html";
+        a.click();
+        URL.revokeObjectURL(url);
+        showToast("Customized index.html downloaded for GitHub Pages!");
+      });
+
+      applyWeddingConfig();
+
+      // -------------------------------------------------------------------
+      // 9. Smooth Scroll Reveal Observer
+      // -------------------------------------------------------------------
+      function triggerScrollReveals() {
+        const reveals = document.querySelectorAll(".reveal");
+        const observer = new IntersectionObserver(
+          (entries) => {
+            entries.forEach((entry) => {
+              if (entry.isIntersecting) {
+                entry.target.classList.add("visible");
+                observer.unobserve(entry.target);
+              }
+            });
+          },
+          { threshold: 0.1 }
+        );
+        reveals.forEach((el) => observer.observe(el));
+      }
+
+      triggerScrollReveals();
+    });
+  </script>
+</body>
+</html>
